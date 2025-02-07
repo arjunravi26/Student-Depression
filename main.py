@@ -68,6 +68,7 @@ def main():
 # Prepare input features
 
    
+    # print(len(features),features)
     pred=st.button("PREDICT")
     if pred:
         try:
