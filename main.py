@@ -65,8 +65,6 @@ def main():
     Mental=['No','Yes']
     Family_History_of_Mental_Illness=st.selectbox("Is there any family history of mental illness?",Mental)
 
-# Prepare input features
-
    
     pred=st.button("PREDICT")
     if pred:
